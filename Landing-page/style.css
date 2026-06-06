@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar,
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero {
+	width: 100vw;
+	padding: 32px 160px;
+	background-color: #1F2937;
+}
+
+.hero-main {
+	margin: 80px 0;
+	display: flex;
+	gap: 24px;
+	justify-content: space-between;
+}
+
+.hero-text * {
+	margin: 12px;
+}
+
+.hero-text button {
+	width: 120px;
+	background-color: #3882F6;
+	border: none;
+	border-radius: 4px;
+	padding: 8px;
+	color: #E5E7EB;
+	font-weight: 900;
+}
+
+.hero-text h1,
+.logo {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+.logo {
+	font-size: 24px;
+}
+
+.hero-text h1 {
+	font-size: 48px;
+}
+
+.hero-secondary,
+.nav-links {
+	font-size: 18px;
+	font-weight: 300;
+	color: #E5E7EB;
+}
+
+.nav-links {
+	gap: 24px;
+	list-style-type: none;
+}
+
+.hero-image {
+	flex-basis: 40vw;
+	background-color: #E5E7EB40;
+	color: #F9FAF8;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-heading {
+	text-align: center;
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
+	margin: 30px 0;
+}
+
+.info {
+	padding: 60px 0;
+}
+
+.info-cards {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	margin: 30px 0;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 150px;
+	max-width: 150px;
+	gap: 4px;
+}
+
+.card p {
+	color: #1F2937AA;
+	text-align: center;
+}
+
+.square {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #3882F6;
+	border-radius: 8px;
+}
+
+.quote-section {
+	padding: 80px 320px;
+	background-color: #E5E7EB;
+	color: #1F2937;
+}
+
+.quote {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.source {
+	text-align: right;
+	font-weight: 900;
+}
+
+.cto-section {
+	padding: 80px 160px;
+}
+
+.cto {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3882F6;
+	padding: 48px 120px;
+	border-radius: 8px;
+}
+
+.cto-text h3 {
+	color: #F9FAF8;
+}
+
+.cto-text p {
+	color: #E5E7EB;
+}
+
+.cto button {
+	background-color: #3882F6;
+	border: 2px solid #F9FAF8;
+	border-radius: 4px;
+	color: #F9FAF8;
+	font-weight: 900;
+	padding: 8px 32px;
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+	background-color: #1F2937;
+	color: #E5E7EB;
+	font-weight: 300;
+}
